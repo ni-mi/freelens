@@ -14,20 +14,16 @@ overrides:
   tmp@^0.2.0: ^0.2.6
 
 patchedDependencies:
-  '@async-fn/jest':
-    hash: e6f6298f958eb8e8255087ea54bff3f834b249e874070c5caca2ebfa13fe4562
-    path: patches/@async-fn__jest.patch
-  circular-dependency-plugin:
-    hash: fc0571771d63f45e608503224f91a2c744a2b48c5088413e14660ee7da11fd51
-    path: patches/circular-dependency-plugin.patch
+  '@async-fn/jest': e6f6298f958eb8e8255087ea54bff3f834b249e874070c5caca2ebfa13fe4562
+  circular-dependency-plugin: fc0571771d63f45e608503224f91a2c744a2b48c5088413e14660ee7da11fd51
 
 importers:
 
   .:
     devDependencies:
       pnpm:
-        specifier: 10.33.4
-        version: 10.33.4
+        specifier: 11.5.2
+        version: 11.5.2
       turbo:
         specifier: 2.9.16
         version: 2.9.16
@@ -197,8 +193,8 @@ importers:
         specifier: ^6.3.0
         version: 6.3.0
       pnpm:
-        specifier: ^10.33.4
-        version: 10.33.4
+        specifier: ^11.5.2
+        version: 11.5.2
       proper-lockfile:
         specifier: ^4.1.2
         version: 4.1.2
@@ -837,8 +833,8 @@ importers:
         specifier: ^6.3.0
         version: 6.3.0
       pnpm:
-        specifier: ^10.33.4
-        version: 10.33.4
+        specifier: ^11.5.2
+        version: 11.5.2
       proper-lockfile:
         specifier: ^4.1.2
         version: 4.1.2
@@ -7940,9 +7936,9 @@ packages:
     resolution: {integrity: sha512-uysumyrvkUX0rX/dEVqt8gC3sTBzd4zoWfLeS29nb53imdaXVvLINYXTI2GNqzaMuvacNx4uJQ8+b3zXR0pkgQ==}
     engines: {node: '>=10.4.0'}
 
-  pnpm@10.33.4:
-    resolution: {integrity: sha512-HGezs1my1AgRm6HtKJ80uPw8aHNBK+xv0mT73IJInlEPy+y5zp0i2ufzt2Jp2EQQRgFL3KU7mXnNelYa1jG4AA==}
-    engines: {node: '>=18.12'}
+  pnpm@11.5.2:
+    resolution: {integrity: sha512-ccYx44IGbvwlYl1c8CkHXeB7YbN/bic1D72Esb2lhkyMGWetwoB3a0XDCnFcA1mjvgj+9C1bsJ4rmQKZeWkpFg==}
+    engines: {node: '>=22.13'}
     hasBin: true
 
   possible-typed-array-names@1.1.0:
@@ -14673,7 +14669,7 @@ snapshots:
       base64-js: 1.5.1
       xmlbuilder: 15.1.1
 
-  pnpm@10.33.4: {}
+  pnpm@11.5.2: {}
 
   possible-typed-array-names@1.1.0: {}
 
